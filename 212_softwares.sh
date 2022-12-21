@@ -9,3 +9,8 @@ sudo snap install code --classic
 sudo snap install pycharm-community --classic
 sudo snap install eclipse --classic
 sudo snap install arduino
+
+# ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password by 'L@binfo212';
+# sudo mysql_secure_installation
+# L@binfo212
+# systemctl status mysql.service
