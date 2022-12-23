@@ -1,0 +1,12 @@
+[Unit]
+Description=Deslogar da rede wi-fi ao desligar o PC
+DefaultDependencies=no
+Before=shutdown.target
+
+[Service]
+Type=oneshot
+ExecStart=/tmp/logout_network.sh
+TimeoutStartSec=0
+
+[Install]
+WantedBy=shutdown.target
