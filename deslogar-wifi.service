@@ -5,7 +5,7 @@ Before=shutdown.target
 
 [Service]
 Type=oneshot
-ExecStart=/tmp/logout_network.sh
+ExecStart=/home/estudante/.local/logout_network.sh
 TimeoutStartSec=0
 
 [Install]
